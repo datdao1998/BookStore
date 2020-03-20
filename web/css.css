@@ -1,0 +1,108 @@
+.link-cart-detail {
+    background-color: darkgray;
+    margin-top: 2%;
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 5vw;
+}
+
+.link-search-book {
+    background-color: darkgray;
+    margin-top: 2%;
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-left: 5vw;
+}
+
+.link-create-order {
+    background-color: darkgray;
+    margin-top: 2%;
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-right: 10%;
+}
+
+.link-payment {
+    clear: both;
+    background-color: darkgray;
+    margin-top: 2%;
+    float: right;
+    margin-right: 10%;
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+table {
+    clear: both;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 2%;
+    border-collapse: collapse;
+    border: black 1px solid;
+}
+th {
+    border-collapse: collapse;
+    border: black 1px solid;
+}
+
+td {
+    text-align: center;
+    border-collapse: collapse;
+    border: black 1px solid;
+    min-height: 3vh;
+}
+
+.th-book-name {
+    min-width: 20vh;
+}
+
+.th-book-author {
+    min-width: 15vh;
+}
+
+.th-book-category {
+    min-width: 10vh;
+}
+
+.th-book-publisher {
+    min-width: 15vh;
+}
+
+.th-book-available {
+    min-width: 5vh;
+}
+
+.th-book-price {
+    min-width: 10vh;
+}
+
+.th-book-add-to-cart {
+    min-width: 25vh;
+}
+
+.th-book-quantity {
+    min-width: 5vw;
+}
+
+.label-create-order {
+    font-size: 20px;
+}

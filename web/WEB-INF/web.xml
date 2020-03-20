@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <servlet>
+        <servlet-name>CheckUserNameExistedServlet</servlet-name>
+        <servlet-class>controller.servlet.CheckUserNameExistedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckUserNameExistedServlet</servlet-name>
+        <url-pattern>/account-customer-check-user-name-existed</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckCustomerExistedServlet</servlet-name>
+        <servlet-class>controller.servlet.CheckCustomerExistedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckCustomerExistedServlet</servlet-name>
+        <url-pattern>/check-customer-existed</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>controller.servlet.CustomerSignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/customer-sign-up</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.servlet.CustomerLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/customer-login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowAllBookServlet</servlet-name>
+        <servlet-class>controller.servlet.ShowAllBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowAllBookServlet</servlet-name>
+        <url-pattern>/show-all-book-available</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchBookServlet</servlet-name>
+        <servlet-class>controller.servlet.SearchBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchBookServlet</servlet-name>
+        <url-pattern>/search-book</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddBookToCartServlet</servlet-name>
+        <servlet-class>controller.servlet.AddBookToCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookToCartServlet</servlet-name>
+        <url-pattern>/add-book-to-cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IncreaseQuantityServlet</servlet-name>
+        <servlet-class>controller.servlet.IncreaseQuantityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncreaseQuantityServlet</servlet-name>
+        <url-pattern>/increase-quantity</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DecreaseQuantityServlet</servlet-name>
+        <servlet-class>controller.servlet.DecreaseQuantityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DecreaseQuantityServlet</servlet-name>
+        <url-pattern>/decrease-quantity</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>OrderHandleServlet</servlet-name>
+        <servlet-class>controller.servlet.OrderHandleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderHandleServlet</servlet-name>
+        <url-pattern>/order-handle</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderDetailServlet</servlet-name>
+        <servlet-class>controller.servlet.OrderDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderDetailServlet</servlet-name>
+        <url-pattern>/order-detail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderUpdateServlet</servlet-name>
+        <servlet-class>controller.servlet.OrderUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderUpdateServlet</servlet-name>
+        <url-pattern>/order-update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddBookToDatabaseServlet</servlet-name>
+        <servlet-class>controller.servlet.AddBookToDatabaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddBookToDatabaseServlet</servlet-name>
+        <url-pattern>/add-book-to-database</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffLoginServlet</servlet-name>
+        <servlet-class>controller.servlet.StaffLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffLoginServlet</servlet-name>
+        <url-pattern>/staff-login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForwardCreateOrderRequestServlet</servlet-name>
+        <servlet-class>controller.servlet.ForwardCreateOrderRequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForwardCreateOrderRequestServlet</servlet-name>
+        <url-pattern>/forward-create-order-request</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>controller.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateOrderServlet</servlet-name>
+        <servlet-class>controller.servlet.CreateOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateOrderServlet</servlet-name>
+        <url-pattern>/create-order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreatOrderBillServlet</servlet-name>
+        <servlet-class>controller.servlet.CreatOrderBillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreatOrderBillServlet</servlet-name>
+        <url-pattern>/creat-order-bill</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderBillDetailServlet</servlet-name>
+        <servlet-class>controller.servlet.OrderBillDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderBillDetailServlet</servlet-name>
+        <url-pattern>/order-bill-detail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckNewOrderBillServlet</servlet-name>
+        <servlet-class>controller.servlet.CheckNewOrderBillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckNewOrderBillServlet</servlet-name>
+        <url-pattern>/check-new-orderBill</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckNewOrderBillInBillListServlet</servlet-name>
+        <servlet-class>controller.servlet.CheckNewOrderBillInBillListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckNewOrderBillInBillListServlet</servlet-name>
+        <url-pattern>/check-new-orderBill-on-billList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FollowAddBookServlet</servlet-name>
+        <servlet-class>controller.servlet.FollowAddBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FollowAddBookServlet</servlet-name>
+        <url-pattern>/follow-add-book</url-pattern>
+    </servlet-mapping>
+</web-app>
